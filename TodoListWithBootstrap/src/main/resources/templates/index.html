@@ -16,7 +16,7 @@
   <h1 class="display-5">Easily manage all of your task!</h1>
   <p class="lead">Then go enjoy life!.</p>
   <hr class="my-4">
-  <a class="btn btn-primary btn-lg" href="@{/new}" role="button">Get Started it's free!</a>
+  <a class="btn btn-primary btn-lg" th:href="@{/new}" role="button">Get Started it's free!</a>
 </div>
 
 		<div th:each="todo: ${todos}" class="card  m-2">
